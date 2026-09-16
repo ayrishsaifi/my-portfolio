@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <img src="/src/assets/images/myPhoto.jpg" alt="Logo" className="h-10 w-10 rounded-full object-cover"/>
+            <img src="/img/optimized/myPhoto.jpg" alt="Logo" className="h-10 w-10 rounded-full object-cover"/>
             <h1 className="text-xl font-bold text-orange-600 dark:text-orange-400">
               Portfo
             </h1>
