@@ -45,7 +45,7 @@ const Skills = () => {
                         <li key={idx} className="flex items-center min-h-7 text-gray-700 dark:text-gray-300 text-sm">
                           {/* Si hay ícono, se muestra; si no, un espacio vacío del mismo tamaño */}
                           {ItemIcon ? (
-                            <ItemIcon className="text-blue-500 dark:text-blue-400 w-5 h-5 mr-3 opacity-80" />
+                            <ItemIcon className="text-orange-500 dark:text-orange-400 w-5 h-5 mr-3 opacity-80" />
                           ) : (
                             <span className="w-5 h-5 mr-3"></span> // Espacio reservado
                           )}

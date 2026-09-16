@@ -1,164 +1,171 @@
 // src/configs/lang/es.js
 export default {
   site: {
-    name: "Alex Morgan",
-    title: "Desarrollador Full-Stack | Especialista en React y Node.js",
-    description: "Desarrollador con experiencia en aplicaciones web modernas, APIs RESTful y arquitecturas escalables.",
+    name: "Aarish Saifi",
+    title: "सॉफ्टवेयर डेवलपर | React.Js और Flutter विशेषज्ञ",
+    description: "आधुनिक वेब एप्लिकेशन, RESTful API और स्केलेबल आर्किटेक्चर में अनुभवी डेवलपर।",
     heroPhrases: [
-      "Construyendo apps con React desde 2018",
-      "Amante del código limpio",
-      "TDD Practitioner",
-      "Open Source Contributor"
-    ],
+      "2024 से Flutter के साथ ऐप्स बना रहा हूँ",
+      "क्लीन कोड का शौकीन",
+      "TDD प्रैक्टिशनर",
+      "ओपन सोर्स कंट्रीब्यूटर"
+    ]
   },
   nav: {
-    hero: "Inicio",
-    about: "Acerca",
-    skills: "Habilidades",
-    projects: "Proyectos",
-    experience: "Experiencia",
-    education: "Educación",
-    contact: "Contacto"
+    hero: "होम",
+    about: "परिचय",
+    skills: "कौशल",
+    projects: "प्रोजेक्ट्स",
+    experience: "अनुभव",
+    education: "शिक्षा",
+    contact: "संपर्क"
   },
   sections: {
-    about: "Acerca de mí",
-    skills: "Habilidades Técnicas",
-    projects: "Proyectos",
-    experience: "Experiencia",
-    education: "Educación",
-    contact: "Contacto"
+    about: "मेरे बारे में",
+    skills: "तकनीकी कौशल",
+    projects: "प्रोजेक्ट्स",
+    experience: "अनुभव",
+    education: "शिक्षा",
+    contact: "संपर्क"
   },
   about: {
     bio: [
-      "Soy desarrollador full-stack con experiencia en construir aplicaciones web robustas y escalables.",
-      "Me apasiona escribir código limpio, bien testeado y mantenible. Uso TDD y CI/CD en todos mis proyectos.",
-      "Fuera del código, me gusta compartir conocimientos, contribuir a open source y aprender nuevas tecnologías."
-    ],
+      "नमस्ते, मैं आरिश सैफी हूँ, लगभग 3 वर्षों के अनुभव वाला एक सॉफ्टवेयर डेवलपर, जिसे व्यावहारिक और यूज़र-केंद्रित डिजिटल समाधान बनाने का जुनून है।",
+      "मेरा मुख्य अनुभव Flutter और क्रॉस-प्लेटफ़ॉर्म एप्लिकेशन डेवलपमेंट में है, जहाँ मैंने Dart, BLoC/Cubit, REST API, Firebase, SQLite और अन्य आधुनिक डेवलपमेंट टूल्स के साथ काम किया है। मुझे Python, SQL, JavaScript, Git, GitHub, और OOP, DSA, SDLC तथा प्रॉब्लम-सॉल्विंग जैसे सॉफ्टवेयर इंजीनियरिंग की बुनियादी बातों का भी ज्ञान है।",
+      "मोबाइल डेवलपमेंट के अलावा, मैं लगातार React.js, AI/GenAI, डेटा एनालिटिक्स और आधुनिक डेवलपमेंट तकनीकों में अपने कौशल को बढ़ा रहा हूँ। मुझे सीखना, तकनीकी चुनौतियों को हल करना, और ऐसे प्रोजेक्ट्स बनाना पसंद है जो मेरे तकनीकी कौशल और वास्तविक दुनिया की समझ दोनों को मज़बूत करते हैं।",
+      "मैं वर्तमान में नए अवसरों के लिए खुला हूँ जहाँ मैं अपने डेवलपमेंट अनुभव का योगदान दे सकूँ, एक इंजीनियर के रूप में विकसित हो सकूँ, और प्रतिभाशाली टीमों के साथ सार्थक उत्पादों पर काम कर सकूँ।"
+    ]
   },
   experience: {
     roles: {
-      "senior-dev": "Desarrollador Senior Full-Stack",
-      "dev-lead": "Líder Técnico",
-      "frontend-dev": "Desarrollador Frontend",
-      "backend-dev": "Desarrollador Backend"
+      "senior-dev": "सॉफ्टवेयर इंजीनियर - एप्लिकेशन डेवलपर",
+      "dev-lead": "AI कंट्रीब्यूटर - फ्रीलांस",
+      "frontend-dev": "सॉफ्टवेयर डेवलपर - फ्रंटएंड",
+      "backend-dev": "सॉफ्टवेयर डेवलपर इंटर्न"
     },
     descriptions: {
-      "senior-dev": "Diseño e implemento soluciones full stack con React, Node.js y bases de datos modernas. Enfoque en rendimiento, accesibilidad y buenas prácticas.",
-      "dev-lead": "Lidero equipos ágiles, defino arquitectura técnica y mentoreo a otros desarrolladores en buenas prácticas y testing.",
-      "frontend-dev": "Desarrollo interfaces modernas con React, TypeScript y Tailwind CSS. Priorizo UX, accesibilidad y rendimiento.",
-      "backend-dev": "Creo APIs RESTful y servicios backend con Node.js, Express y bases de datos SQL/NoSQL. Uso pruebas automatizadas en todo el flujo."
+      "senior-dev": "BLoC और Cubit स्टेट मैनेजमेंट का उपयोग करके प्रोडक्शन-लेवल Flutter मोबाइल एप्लिकेशन को डिज़ाइन और विकसित करता हूँ, जिससे स्केलेबल और टेस्ट करने योग्य कोड आर्किटेक्चर सुनिश्चित होता है। क्रॉस-प्लेटफ़ॉर्म मोबाइल ऐप्स (iOS और Android) में RESTful API इंटीग्रेट करता हूँ, जिससे विश्वसनीय डेटा ट्रांसफर, एरर हैंडलिंग और ऑप्टिमाइज़्ड नेटवर्क प्रदर्शन सुनिश्चित होता है। एंड-टू-एंड डेवलपमेंट लाइफसाइकिल में योगदान देता हूँ: आवश्यकता एकत्रीकरण, डिज़ाइन, कोडिंग, टेस्टिंग, डिप्लॉयमेंट और रिलीज़ के बाद की निगरानी।",
+      "dev-lead": "तकनीकी कार्यों पर AI प्रतिक्रियाओं का मूल्यांकन और सुधार करने के लिए डेटा स्ट्रक्चर, एल्गोरिदम और प्रोग्रामिंग भाषाओं के ज्ञान का उपयोग किया। मॉडल की सटीकता और गुणवत्ता सुधारने के लिए कोड-संबंधित प्रॉम्प्ट्स और प्रतिक्रियाओं को लिखकर, समीक्षा करके और मूल्यांकन करके AI मॉडल ट्रेनिंग में योगदान दिया। शुद्धता, स्पष्टता और इंजीनियरिंग की सर्वोत्तम प्रथाओं के अनुरूपता सुनिश्चित करते हुए सॉफ्टवेयर डेवलपमेंट विषयों में AI-जनित आउटपुट का विश्लेषण और रैंकिंग की।",
+      "frontend-dev": "पूरे डेवलपमेंट लाइफसाइकिल में स्केलेबल सॉफ्टवेयर एप्लिकेशन विकसित, मेंटेन और ऑप्टिमाइज़ किए। डिबगिंग, API इंटीग्रेशन और स्वच्छ, कुशल कोड लिखने पर ज़ोर देते हुए एप्लिकेशन फीचर्स बनाए। समय पर विश्वसनीय, प्रोडक्शन-रेडी समाधान देने के लिए क्रॉस-फंक्शनल टीमों के साथ सहयोग किया।",
+      "backend-dev": "एक टीम वातावरण में वेब और मोबाइल फीचर्स के विकास में योगदान दिया, प्रोडक्शन कोडबेस और एजाइल वर्कफ़्लो का व्यावहारिक अनुभव प्राप्त किया। फ्रंटएंड कंपोनेंट्स बनाए और टेस्ट किए, क्रॉस-ब्राउज़र/क्रॉस-डिवाइस समस्याओं को डिबग किया, और यूज़र फीडबैक के आधार पर UI सुधार लागू किए। कोड की समीक्षा करने, तकनीकी बाधाओं को हल करने और समय पर स्प्रिंट कमिटमेंट पूरा करने के लिए सीनियर डेवलपर्स के साथ सहयोग किया।"
     }
   },
   education: {
     degrees: {
-      "computer-science": "Ingeniería en Computación",
-      "web-dev-bootcamp": "Bootcamp de Desarrollo Web",
-      "tdd-course": "Curso de Test-Driven Development"
+      "computer-science": "कंप्यूटर साइंस इंजीनियरिंग में बीटेक",
+      "web-dev-bootcamp": "सीनियर सेकेंडरी",
+      "tdd-course": "हाई स्कूल डिप्लोमा"
     },
     descriptions: {
-      "computer-science": "Formación sólida en algoritmos, estructuras de datos, redes y desarrollo de software.",
-      "web-dev-bootcamp": "Entrenamiento intensivo en tecnologías modernas: React, Node.js, MongoDB, Docker.",
-      "tdd-course": "Enfoque avanzado en pruebas automatizadas, calidad de código y ciclos de desarrollo ágil."
+      "computer-science": "एल्गोरिदम, डेटा स्ट्रक्चर, नेटवर्किंग और सॉफ्टवेयर डेवलपमेंट में मजबूत आधार।",
+      "web-dev-bootcamp": "आधुनिक तकनीकों में गहन प्रशिक्षण: React, Node.js, MongoDB, Docker।",
+      "tdd-course": "ऑटोमेटेड टेस्टिंग, कोड गुणवत्ता और एजाइल डेवलपमेंट साइकिल पर उन्नत फोकस।"
     }
   },
   projects: {
-    txtResults: "Resultados",
+    txtResults: "परिणाम",
     buttons: {
-      viewResults: "Ver resultados",
-      hideResults: "Ocultar resultados",
-      viewOnGithub: "Ver en GitHub",
+      viewResults: "परिणाम देखें",
+      hideResults: "परिणाम छिपाएं",
+      viewOnGithub: "देखें",
     },
     titles: {
-      "e-commerce-platform": "Plataforma de E-commerce",
-      "task-manager-app": "Aplicación de Gestión de Tareas",
-      "weather-dashboard": "Dashboard de Clima en Tiempo Real",
-      "blog-engine": "Motor de Blog con CMS",
+      "e-commerce-platform": "EDUIO स्कूल ऐप",
+      "task-manager-app": "EDUIO स्टूडेंट ऐप",
+      "weather-dashboard": "Medimate ऐप",
+      "blog-engine": "पोर्टफोलियो वेबसाइट",
     },
     descriptions: {
-      "e-commerce-platform": "Plataforma completa con carrito, pasarela de pago (Stripe) y panel de administración. Desarrollada con React, Node.js y MongoDB.",
-      "task-manager-app": "App para gestión de tareas con autenticación, drag & drop y sincronización en tiempo real. Usé React, Firebase y Framer Motion.",
-      "weather-dashboard": "Dashboard interactivo que muestra clima actual y pronóstico usando la API de OpenWeather. Diseño responsive y animaciones suaves.",
-      "blog-engine": "Motor de blog con editor WYSIWYG, comentarios y SEO avanzado. Backend en Node.js con Express y base de datos PostgreSQL.",
+      "e-commerce-platform": "एक व्यापक शिक्षक-केंद्रित मोबाइल एप्लिकेशन विकसित किया जो शिक्षकों को अध्ययन सामग्री अपलोड करने, होमवर्क असाइन करने और छात्रों के प्रदर्शन की निगरानी करने में सक्षम बनाता है — जिसका उपयोग कई कक्षाओं में किया जाता है। रियल-टाइम पुश नोटिफिकेशन, उपस्थिति प्रबंधन और कक्षा शेड्यूल के लिए एक संरचित डैशबोर्ड लागू किया, जिससे शिक्षकों का प्रशासनिक कार्यभार काफी कम हुआ। छात्र डेटा गोपनीयता और संस्थागत मानकों के अनुरूप व्यवस्थित रिकॉर्ड-कीपिंग सुनिश्चित करने वाला एक सुरक्षित भूमिका-आधारित एक्सेस सिस्टम डिज़ाइन किया।",
+      "task-manager-app": "एक इंटरैक्टिव छात्र-केंद्रित ऐप बनाया जो एक ही प्लेटफ़ॉर्म पर अध्ययन सामग्री, टाइमटेबल, असाइनमेंट और शैक्षणिक अपडेट तक केंद्रीकृत पहुँच प्रदान करता है। छात्र PII की सुरक्षा के लिए सुरक्षित प्रमाणीकरण और डेटा हैंडलिंग लागू की; भविष्य के मॉड्यूल (क्विज़, उपस्थिति, ग्रेड) को समर्थन देने के लिए ऐप को एक्सटेंसिबिलिटी के साथ डिज़ाइन किया। Android और iOS पर UX एक्सेसिबिलिटी और रिस्पॉन्सिवनेस पर ध्यान केंद्रित किया, प्रदर्शन ऑप्टिमाइज़ेशन के माध्यम से लो-एंड डिवाइसों पर सहज प्रदर्शन हासिल किया।",
+      "weather-dashboard": "इंटर्नशिप लर्निंग प्रोजेक्ट के हिस्से के रूप में Flutter का उपयोग करके एक डॉक्टर अपॉइंटमेंट बुकिंग एप्लिकेशन विकसित किया। स्टेट मैनेजमेंट के लिए BLoC/Cubit के साथ अपॉइंटमेंट लिस्टिंग और बुकिंग फीचर्स लागू किए। डॉक्टर और अपॉइंटमेंट डेटा प्राप्त करने और प्रदर्शित करने के लिए REST API इंटीग्रेट किए; Flutter ऐप डेवलपमेंट की सर्वोत्तम प्रथाओं के अनुरूप एक स्वच्छ प्रोजेक्ट संरचना का पालन किया।",
+      "blog-engine": "यह मूल रूप से मेरी पोर्टफोलियो वेबसाइट है जो React.js, Tailwind CSS, और Framer Motion का उपयोग करके बनाई गई है। यह मेरे कौशल, प्रोजेक्ट्स और अनुभव को एक दृश्य रूप से आकर्षक और इंटरैक्टिव तरीके से प्रदर्शित करती है। वेबसाइट पूरी तरह से रिस्पॉन्सिव है और सभी डिवाइसों पर बेहतरीन प्रदर्शन के लिए ऑप्टिमाइज़ की गई है। इसमें एक संपर्क फ़ॉर्म और मेरी सोशल मीडिया प्रोफ़ाइल के लिंक भी शामिल हैं, जिससे संभावित नियोक्ताओं या सहयोगियों के लिए संपर्क करना आसान हो जाता है।"
     },
     results: {
       "e-commerce-platform": [
-        "+10,000 visitas mensuales",
-        "Integración con Stripe exitosa",
-        "95% de satisfacción de usuarios"
+        "+10,000 मासिक विज़िट",
+        "Stripe के साथ सफल इंटीग्रेशन",
+        "95% यूज़र संतुष्टि"
       ],
       "task-manager-app": [
-        "100% cubierto por pruebas unitarias",
-        "Rendimiento optimizado (<100ms)",
-        "Disponible en web y móvil"
+        "100% यूनिट टेस्ट कवरेज",
+        "ऑप्टिमाइज़्ड प्रदर्शन (<100ms)",
+        "वेब और मोबाइल पर उपलब्ध"
       ],
       "weather-dashboard": [
-        "Datos en tiempo real precisos",
-        "Soporte para +200,000 ciudades",
-        "Diseño accesible y responsive"
+        "सटीक रियल-टाइम डेटा",
+        "200,000+ शहरों के लिए समर्थन",
+        "एक्सेसिबल और रिस्पॉन्सिव डिज़ाइन"
       ],
       "blog-engine": [
-        "SEO optimizado (Lighthouse >90)",
-        "Editor intuitivo para no técnicos",
-        "Comentarios con moderación"
-      ]
+        "SEO ऑप्टिमाइज़्ड (Lighthouse >90)",
+        "गैर-तकनीकी लोगों के लिए सहज एडिटर",
+        "मॉडरेशन के साथ कमेंट्स"
+      ],
     }
   },
   skills: {
-    txtHeader: "Habilidades Técnicas",
-    intro: "Mis habilidades se han desarrollado durante años construyendo aplicaciones web modernas, con enfoque en calidad, rendimiento y mantenibilidad.",
+    txtHeader: "तकनीकी कौशल",
+    intro: "मेरे कौशल वर्षों से आधुनिक वेब एप्लिकेशन बनाने के दौरान विकसित हुए हैं, जिसमें गुणवत्ता, प्रदर्शन और मेंटेनेबिलिटी पर ध्यान दिया गया है।",
     categories: {
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "devops": "DevOps & Cloud",
-      "databases": "Bases de Datos",
-      "testing": "Pruebas & Calidad",
-      "other": "Otros"
+      "frontend": "फ्रंटएंड",
+      "backend": "बैकएंड",
+      "devops": "DevOps और क्लाउड",
+      "databases": "डेटाबेस",
+      "testing": "टेस्टिंग और गुणवत्ता",
+      "other": "अन्य"
     },
     items: {
       "react": "React",
+      "flutter": "Flutter",
+      "bloc": "BloC/Cubit",
       "javascript": "JavaScript",
       "typescript": "TypeScript",
       "tailwind": "Tailwind CSS",
       "nodejs": "Node.js",
       "express": "Express",
       "docker": "Docker",
-      "git": "Git & GitHub",
-      "postgresql": "PostgreSQL",
+      "git": "Git और GitHub",
       "mysql": "MySQL",
-      "mongodb": "MongoDB",
-      "redis": "Redis",
-      "jest": "Jest, Testing Library",
+      "redis": "Firebase",
+      "jest": "Jest, टेस्टिंग लाइब्रेरी",
       "playwright": "Playwright (E2E)",
-      "languages": "C,C++"
+      "languages": "C,C++",
+      "nextjs": "Next.js",
+      "restapi": "REST API इंटीग्रेशन",
+      "prompt-engineering": "प्रॉम्प्ट इंजीनियरिंग",
+      "ai-genai": "AI और GenAI",
+      "data-analytics": "डेटा एनालिटिक्स",
+      "cloud-computing": "क्लाउड कंप्यूटिंग"
     }
   },
   hero: {
-    btnDownload: '📄 Descargar CV',
-    btnContact: '✉️ Contáctame'
+    btnDownload: '📄 CV डाउनलोड करें',
+    btnContact: '✉️ मुझसे संपर्क करें'
   },
   contact: {
-    message: "¿Tienes un proyecto en mente? ¡Hablemos!",
+    message: "कोई प्रोजेक्ट है दिमाग़ में? चलिए बात करते हैं!",
     form: {
-      name: "Nombre",
-      email: "Correo",
-      message: "Mensaje",
-      buttonText: "Enviar",
-      sending: "Enviando...",
-      error: "Hubo un error. Inténtalo más tarde.",
-      success: "¡Mensaje enviado! Te responderé pronto.",
-      invalidEmail: "Por favor, ingresa un email válido."
+      name: "नाम",
+      email: "ईमेल",
+      message: "संदेश",
+      buttonText: "भेजें",
+      sending: "भेजा जा रहा है...",
+      error: "कुछ गड़बड़ हुई। कृपया बाद में पुनः प्रयास करें।",
+      success: "संदेश भेज दिया गया! मैं जल्द ही जवाब दूँगा।",
+      invalidEmail: "कृपया एक मान्य ईमेल दर्ज करें।"
     }
   },
   footer: {
-    developedBy: "Diseñado y desarrollado por",
-    rights: "Todos los derechos reservados"
+    developedBy: "डिज़ाइन और विकसित किया गया",
+    rights: "सर्वाधिकार सुरक्षित"
   },
   ats: {
-    summary: "{name} es {roles} con experiencia en {skills}. Desarrollador de aplicaciones web modernas con enfoque en calidad, rendimiento y escalabilidad.",
-    keyProjects: "Proyectos destacados: {projects}.",
-    experience: "Experiencia profesional en {company} liderando desarrollo full stack en entornos ágiles.",
-    contact: "Contacto: {email}. Disponible en {social}.",
-    languages: "Idiomas: Español (nativo), Inglés (profesional).",
-    keywords: "Palabras clave:"
+    summary: "{name} एक {roles} है जिसे {skills} का अनुभव है। गुणवत्ता, प्रदर्शन और स्केलेबिलिटी पर केंद्रित आधुनिक वेब एप्लिकेशन डेवलपर।",
+    keyProjects: "प्रमुख प्रोजेक्ट्स: {projects}।",
+    experience: "{company} में पेशेवर अनुभव, एजाइल वातावरण में फुल-स्टैक डेवलपमेंट का नेतृत्व।",
+    contact: "संपर्क: {email}। {social} पर उपलब्ध।",
+    languages: "भाषाएँ: हिंदी (मातृभाषा), अंग्रेज़ी (व्यावसायिक)।",
+    keywords: "मुख्य शब्द:"
   }
 };

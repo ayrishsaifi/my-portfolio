@@ -16,7 +16,8 @@ import {
   SiKubernetes,
   SiExpress,
   SiMysql,
-  SiTailwindcss
+  SiTailwindcss,
+  SiFirebase
 } from 'react-icons/si';
 
 import {
@@ -41,6 +42,8 @@ export const SKILLS_DATA = [
     id: "frontend",
     items: [
       { name: "react", icon: FaReact },
+      { name: "flutter", icon: FaRegFileCode },
+      { name: "bloc", icon: FaCode},
       { name: "javascript", icon: SiJavascript },
       { name: "typescript", icon: SiTypescript },
       { name: "tailwind", icon:  SiTailwindcss}
@@ -64,10 +67,8 @@ export const SKILLS_DATA = [
   {
     id: "databases",
     items: [
-      { name: "postgresql", icon: SiPostgresql },
       { name: "mysql", icon: SiMysql },
-      { name: "mongodb", icon: SiMongodb },
-      { name: "redis", icon: DiRedis }
+      { name: "redis", icon: SiFirebase }
     ]
   },
   {
@@ -81,6 +82,12 @@ export const SKILLS_DATA = [
     id: "other",
     items: [
       { name: "languages", icon: SiCplusplus },
+      { name: "nextjs", icon: FaCode },
+      { name: "restapi", icon: FaNetworkWired },
+      { name: "prompt-engineering", icon: FaTerminal },
+      { name: "ai-genai", icon: FaRegFileCode },
+      { name: "data-analytics", icon: BsSpeedometer },
+      { name: "cloud-computing", icon: TbCloudDataConnection }
     ]
   }
 ];

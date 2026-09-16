@@ -3,7 +3,7 @@
 import FadeInSection from '../components/FadeInSection';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaHome } from 'react-icons/fa';
+import { FaGithub, FaGooglePlay, FaHome } from 'react-icons/fa';
 import { useTranslation } from '../contexts/translationContext';
 import { PROJECTS_DATA } from '../configs/data/projects';
 
@@ -54,7 +54,7 @@ const Projects = () => {
                   <div className="mb-4">
                     <button
                       onClick={() => toggleResults(i)}
-                      className="text-sm text-blue-600 dark:text-blue-400 hover:underline focus:outline-none font-medium"
+                      className="text-sm text-orange-600 dark:text-orange-400 hover:underline focus:outline-none font-medium"
                       aria-expanded={!!expanded[i]}
                     >
                       { expanded[i] ? t.projects.buttons.hideResults : t.projects.buttons.viewResults }
@@ -67,7 +67,7 @@ const Projects = () => {
                       transition={{ duration: 0.3, ease: "easeInOut" }}
                       className="overflow-hidden"
                     >
-                      <h4 className="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-1 mt-2">
+                      <h4 className="text-sm font-semibold text-orange-600 dark:text-orange-400 mb-1 mt-2">
                         ✅ {t.projects.txtResults}:
                       </h4>
                       <ul className="text-xs text-gray-600 dark:text-gray-400 space-y-1">
@@ -89,9 +89,9 @@ const Projects = () => {
                       className="px-2 py-1 text-xs
                                 bg-gray-100 dark:bg-gray-700/50
                                 text-gray-800 dark:text-gray-200
-                                border-2 border-gray-200 dark:border-blue-500
+                                border-2 border-gray-200 dark:border-orange-500
                                 rounded-md
-                                hover:border-blue-500 dark:hover:border-blue-400
+                                hover:border-orange-500 dark:hover:border-orange-400
                                 transition-colors duration-300"
                     >
                       {t}
@@ -104,14 +104,14 @@ const Projects = () => {
                       href={project.link}
                       className="inline-flex items-center
                                 gap-2 px-4 py-2
-                                text-blue-600
-                                dark:text-blue-400
+                                text-orange-600
+                                dark:text-orange-400
                                 hover:underline
                                 rounded-lg
                                 transition-all
                                 duration-300 group"
                     >
-                      <FaGithub className="text-lg group-hover:scale-110 transition-transform" />
+                      <FaGooglePlay className="text-lg group-hover:scale-110 transition-transform" />
                       <span className="font-medium">{t.projects.buttons.viewOnGithub}</span>
                     </a>
                   </div>

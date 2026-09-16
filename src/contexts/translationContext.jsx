@@ -1,10 +1,10 @@
 /* eslint-disable react-refresh/only-export-components */
 // src/contexts/TranslationContext.jsx
 import { createContext, useState, useEffect, useContext } from 'react';
-import es from '../configs/lang/es';
+import hi from '../configs/lang/es';
 import en from '../configs/lang/en';
 
-const translations = { es, en };
+const translations = { hi, en };
 
 // Crea el Contexto
 const TranslationContext = createContext();

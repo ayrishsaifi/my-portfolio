@@ -2,22 +2,26 @@
 export const EXPERIENCE_DATA = [
   {
     id: "senior-dev",
-    company: "Tech Innovations Inc.",
-    period: "2020 - Present"
+    company: "Quant & Company",
+    period: "Feb 2025 - Jul 2026",
+    location: "Remote"
   },
   {
     id: "dev-lead",
-    company: "Digital Solutions Co.",
-    period: "2018 - 2020"
+    company: "Outlier AI,",
+    period: "Aug 2024  - Feb 2025",
+    location: "Remote"
   },
   {
     id: "frontend-dev",
-    company: "WebCraft Studio",
-    period: "2016 - 2018"
+    company: "Ghoul Web Solution LLP",
+    period: "Oct 2023 - Jul 2024",
+    location: "Noida"
   },
   {
     id: "backend-dev",
-    company: "DataFlow Systems",
-    period: "2014 - 2016"
+    company: "GWS LLP",
+    period: "Jul 2023 - Sep 2023",
+    location: "Noida"
   }
 ];

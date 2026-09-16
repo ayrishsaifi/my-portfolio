@@ -17,8 +17,8 @@ const ThemeToggle = () => {
         className={`
           rounded-full p-1.5 *:size-7
           ${!darkMode
-      ? 'bg-white ring-1 ring-blue-400 shadow-sm'
-      : 'hover:bg-white/90 hover:text-blue-600'
+      ? 'bg-white ring-1 ring-orange-400 shadow-sm'
+      : 'hover:bg-white/90 hover:text-orange-600'
     }
           sm:p-0 
           cursor-pointer 
@@ -48,8 +48,8 @@ const ThemeToggle = () => {
         className={`
           rounded-full p-1.5 *:size-7 
           ${darkMode
-      ? 'bg-gray-700 ring-1 ring-blue-600 shadow-sm inset-ring-white/10'
-      : 'hover:bg-white/90 hover:text-blue-400'
+      ? 'bg-gray-700 ring-1 ring-orange-600 shadow-sm inset-ring-white/10'
+      : 'hover:bg-white/90 hover:text-orange-400'
     }
           sm:p-0
           cursor-pointer

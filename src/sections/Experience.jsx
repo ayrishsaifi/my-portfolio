@@ -16,7 +16,7 @@ const Experience = () => {
         </FadeInSection>
         <div className="relative">
           {/* Línea central del timeline */}
-          <div className="absolute left-8 md:left-1/2 top-0 w-0.5 h-full bg-blue-200 dark:bg-blue-900 transform -translate-x-0.5 hidden md:block"></div>
+          <div className="absolute left-8 md:left-1/2 top-0 w-0.5 h-full bg-orange-200 dark:bg-orange-900 transform -translate-x-0.5 hidden md:block"></div>
 
           {EXPERIENCE_DATA.map((exp, i) => (
             <FadeInSection key={i} delay={i * 0.1}>
@@ -25,15 +25,15 @@ const Experience = () => {
                 <div className={`w-full md:w-1/2 ${i % 2 === 0 ? 'md:pr-8 md:pl-16' : 'md:pl-8 md:pr-16'}`}>
                   <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-200 dark:border-gray-600">
                     <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{t.experience.roles[exp.id]}</h3>
-                    <p className="text-blue-600 dark:text-blue-400 font-medium">{exp.company}</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{exp.period}</p>
+                    <p className="text-orange-600 dark:text-orange-400 font-medium">{exp.company}</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{exp.period} • {exp.location}</p>
                     <p className="mt-3 text-gray-700 dark:text-gray-300">{t.experience.descriptions[exp.id]}</p>
                   </div>
                 </div>
 
                 {/* Punto en la línea */}
                 <div className="flex items-center justify-center">
-                  <div className="w-4 h-4 bg-blue-600 rounded-full border-4 border-white dark:border-gray-800 shadow-md z-10"></div>
+                  <div className="w-4 h-4 bg-orange-600 rounded-full border-4 border-white dark:border-gray-800 shadow-md z-10"></div>
                 </div>
               </div>
             </FadeInSection>

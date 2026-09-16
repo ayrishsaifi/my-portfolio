@@ -2,17 +2,17 @@
 export const EDUCATION_DATA = [
   {
     id: "computer-science",
-    school: "University of Technology",
-    year: "2010 - 2014"
+    school: "Mangalmay Institue of Engineering & Technology",
+    year: "2020 - 2024"
   },
   {
     id: "web-dev-bootcamp",
-    school: "Dev Academy",
-    year: "2015"
+    school: "SDRV Convent School",
+    year: "2020"
   },
   {
     id: "tdd-course",
-    school: "University of Helsinki",
-    year: "2023"
+    school: "S Devi Inter College",
+    year: "2018"
   }
 ];

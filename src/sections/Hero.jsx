@@ -1,8 +1,7 @@
 /* eslint-disable no-useless-escape */
 // src/sections/Hero.jsx
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaDiscord } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
-import { FaX, FaXTwitter } from 'react-icons/fa6';
 import { useTranslation } from '../contexts/translationContext';
 import { SITE_DATA } from '../configs/data/site'
 import ATSMeta from '../components/ATSMeta';
@@ -73,7 +72,7 @@ const Hero = () => {
       id="hero"
       className="min-h-screen flex items-center justify-center px-6 py-20
       bg-gradient-to-br  bg-gray-50 dark:from-gray-900 dark:to-gray-800 transition-colors duration-700"
-    >                {/* from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-700" */}
+    >                {/* from-orange-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-700" */}
 
       <div className="container mx-auto max-w-screen-xl">
         {/* Mantenemos tu diseño de marco */}
@@ -96,7 +95,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 dark:text-white mb-2 leading-tight">
               {name}
             </h1>
-            <p className="text-2xl md:text-3xl text-blue-600 dark:text-blue-400 font-medium mb-4">
+            <p className="text-2xl md:text-3xl text-orange-600 dark:text-orange-400 font-medium mb-4">
               {title}
             </p>
 
@@ -105,7 +104,7 @@ const Hero = () => {
               style={{ fontFamily: 'Monaco, Menlo, "Ubuntu Mono", "Fira Code", monospace' }}
             >
               {text}
-              <span className="inline-block w-px h-8 bg-blue-600 dark:bg-blue-400 animate-pulse ml-1"></span>
+              <span className="inline-block w-px h-8 bg-orange-600 dark:bg-orange-400 animate-pulse ml-1"></span>
             </p>
 
             {/* Botones */}
@@ -114,14 +113,14 @@ const Hero = () => {
                 href={cvUrl}
                 download={fileName}
                 className="px-6 py-3
-                        bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800 text-white
+                        bg-orange-600 hover:bg-orange-700 dark:bg-orange-700 dark:hover:bg-orange-800 text-white
                         rounded-lg shadow-md hover:shadow-lg transition-all duration-300 font-medium"
               >
                 {t.hero.btnDownload}
               </a>
               <a
                 href="#contact"
-                className="px-6 py-3 bg-transparent border-2 border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 font-medium"
+                className="px-6 py-3 bg-transparent border-2 border-orange-600 dark:border-orange-400 text-orange-600 dark:text-orange-400 hover:bg-orange-600 hover:text-white dark:hover:bg-orange-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 font-medium"
               >
                 { t.hero.btnContact }
               </a>
@@ -130,27 +129,17 @@ const Hero = () => {
             {/* Redes sociales */}
             <div className="flex justify-center lg:justify-start gap-6 text-2xl">
               { SITE_DATA.social.github &&
-                <a href={SITE_DATA.social.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-transform hover:scale-110">
+                <a href={SITE_DATA.social.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-transform hover:scale-110">
                   <FaGithub />
                 </a>
               }
               { SITE_DATA.social.linkedin &&
-                <a href={SITE_DATA.social.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-transform hover:scale-110">
+                <a href={SITE_DATA.social.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-transform hover:scale-110">
                   <FaLinkedin />
                 </a>
               }
-              { SITE_DATA.social.twitter &&
-                <a href={SITE_DATA.social.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-transform hover:scale-110">
-                  <FaXTwitter />
-                </a>
-              }
-              { SITE_DATA.social.discord &&
-                <a href={SITE_DATA.social.discord} target="_blank" rel="noopener noreferrer" aria-label="Discord" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-transform hover:scale-110">
-                  <FaDiscord />
-                </a>
-              }
               { SITE_DATA.email &&
-                <a href={`mailto:${SITE_DATA.email}`} aria-label="Email" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-transform hover:scale-110">
+                <a href={`mailto:${SITE_DATA.email}`} aria-label="Email" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-transform hover:scale-110">
                   <FaEnvelope />
                 </a>
               }

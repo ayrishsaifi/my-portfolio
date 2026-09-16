@@ -23,14 +23,14 @@ const Education = () => {
                 <div className={`w-full md:w-1/2 ${i % 2 === 0 ? 'md:pr-8 md:pl-16' : 'md:pl-8 md:pr-16'}`}>
                   <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-600">
                     <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{t.education.degrees[edu.id]}</h3>
-                    <p className="text-blue-600 dark:text-blue-400 font-medium">{edu.school}</p>
+                    <p className="text-orange-600 dark:text-orange-400 font-medium">{edu.school}</p>
                     <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{edu.year}</p>
                   </div>
                 </div>
 
                 {/* Punto en la línea */}
                 <div className="flex items-center justify-center">
-                  <div className="w-4 h-4 bg-indigo-600 rounded-full border-4 border-white dark:border-gray-800 shadow-md z-10"></div>
+                  <div className="w-4 h-4 bg-orange-600 rounded-full border-4 border-white dark:border-gray-800 shadow-md z-10"></div>
                 </div>
               </div>
             </FadeInSection>

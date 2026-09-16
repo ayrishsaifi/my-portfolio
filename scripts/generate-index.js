@@ -9,7 +9,7 @@ const PUBLIC_DIR = path.resolve('public');
 
 const INDEX_PATH = "index.html"
 
-const baseUrl = SITE_DATA.siteUrl || 'https://yasik-dev.vercel.app';
+const baseUrl = SITE_DATA.siteUrl || 'https://aarish-saifi.vercel.app';
 const description = en.site.description || 'Portafolio personal de un desarrollador con experiencia en React, Node.js y DevOps.';
 const title = `${en.site.name} - ${en.site.title}`;
 const siteName = en.site.name;

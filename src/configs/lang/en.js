@@ -1,11 +1,11 @@
 // src/configs/lang/en.js
 export default {
   site: {
-    name: "Alex Morgan",
-    title: "Full-Stack Developer | React & Node.js Specialist",
+    name: "Aarish Saifi",
+    title: "Software Developer | React.Js & Flutter Specialist",
     description: "Developer with experience in modern web applications, RESTful APIs, and scalable architectures.",
     heroPhrases: [
-      "Building apps with React since 2018",
+      "Building apps with Flutter since 2024",
       "Clean code enthusiast",
       "TDD Practitioner",
       "Open Source Contributor"
@@ -30,30 +30,31 @@ export default {
   },
   about: {
     bio: [
-      "I'm a full-stack developer with experience building robust and scalable web applications.",
-      "I'm passionate about writing clean, well-tested, and maintainable code. I use TDD and CI/CD in all my projects.",
-      "Outside of coding, I enjoy sharing knowledge, contributing to open source, and learning new technologies."
+      "Hi, I'm Aarish Saifi, a Software Developer with approximately 3 years of experience and a passion for building practical, user-focused digital solutions.",
+      "My core experience is in Flutter and cross-platform application development, where I have worked with Dart, BLoC/Cubit, REST APIs, Firebase, SQLite, and other modern development tools. I also have knowledge of Python, SQL, JavaScript, Git, GitHub, and software engineering fundamentals such as OOP, DSA, SDLC, and problem-solving",
+      "Beyond mobile development, I am continuously expanding my skills in React.js, AI/GenAI, Data Analytics, and modern development technologies. I enjoy learning, solving technical challenges, and building projects that strengthen both my technical skills and real-world understanding.",
+      "I'm currently open to new opportunities where I can contribute my development experience, grow as an engineer, and work on meaningful products with talented teams."
     ]
   },
   experience: {
     roles: {
-      "senior-dev": "Senior Full-Stack Developer",
-      "dev-lead": "Technical Lead",
-      "frontend-dev": "Frontend Developer",
-      "backend-dev": "Backend Developer"
+      "senior-dev": "Software Engineer - Application Developer",
+      "dev-lead": "AI Contributor - Freelance",
+      "frontend-dev": "Software Developer - Frontend",
+      "backend-dev": "Software Developer Intern"
     },
     descriptions: {
-      "senior-dev": "Design and implement full-stack solutions with React, Node.js, and modern databases. Focus on performance, accessibility, and best practices.",
-      "dev-lead": "Lead agile teams, define technical architecture, and mentor developers in best practices and testing.",
-      "frontend-dev": "Build modern UIs with React, TypeScript, and Tailwind CSS. Prioritize UX, accessibility, and performance.",
-      "backend-dev": "Create RESTful APIs and backend services with Node.js, Express, and SQL/NoSQL databases. Use automated testing throughout the pipeline."
+      "senior-dev": "Architect and develop production-level Flutter mobile applications using BLoC and Cubit state management, ensuring scalable and testable code architecture. Integrate RESTful APIs into cross-platform mobile apps (iOS & Android), ensuring reliable data transfer, error handling, and optimized network performance. Contribute to end-to-end development lifecycle: requirement gathering, design, coding, testing, deployment, and post release monitoring.  ",
+      "dev-lead": "Applied knowledge of data structures, algorithms, and programming languages to assess and improve AI responses on technical tasks. Contributed to AI model training by writing, reviewing, and evaluating code-related prompts and responses to improve model accuracy and quality. Analyzed and ranked AI-generated outputs across software development topics, ensuring correctness, clarity, and alignment with engineering best practices. ",
+      "frontend-dev": "Developed, maintained, and optimized scalable software applications across the full development lifecycle. Built application features with a strong focus on debugging, API integration, and writing clean, efficient code. Collaborated with cross-functional teams to deliver reliable, production-ready solutions on schedule. .",
+      "backend-dev": "Contributed to development of web and mobile features in a team environment, gaining hands-on exposure to production codebases and agile workflows. Built and tested frontend components, debugged cross-browser/cross-device issues, and implemented UI improvements based on user feedback. Collaborated with senior developers to review code, resolve technical blockers, and deliver sprint commitments on schedule. "
     }
   },
   education: {
     degrees: {
-      "computer-science": "Computer Science Engineering",
-      "web-dev-bootcamp": "Web Development Bootcamp",
-      "tdd-course": "Test-Driven Development Course"
+      "computer-science": "BTech in Computer Science Engineering",
+      "web-dev-bootcamp": "Senior Secondary",
+      "tdd-course": "High School Diploma"
     },
     descriptions: {
       "computer-science": "Solid foundation in algorithms, data structures, networking, and software development.",
@@ -66,19 +67,19 @@ export default {
     buttons: {
       viewResults: "View Results",
       hideResults: "Hide Results",
-      viewOnGithub: "View on GitHub",
+      viewOnGithub: "View",
     },
     titles: {
-      "e-commerce-platform": "E-commerce Platform",
-      "task-manager-app": "Task Manager App",
-      "weather-dashboard": "Real-Time Weather Dashboard",
-      "blog-engine": "Blog Engine with CMS",
+      "e-commerce-platform": "EDUIO School App",
+      "task-manager-app": "EDUIO Student App",
+      "weather-dashboard": "Medimate App",
+      "blog-engine": "Pportfolio Website",
     },
     descriptions: {
-      "e-commerce-platform": "Full platform with cart, Stripe payment gateway, and admin panel. Built with React, Node.js, and MongoDB.",
-      "task-manager-app": "Task management app with auth, drag & drop, and real-time sync. Used React, Firebase, and Framer Motion.",
-      "weather-dashboard": "Interactive dashboard showing current weather and forecast using OpenWeather API. Responsive design with smooth animations.",
-      "blog-engine": "Blog engine with WYSIWYG editor, comments, and advanced SEO. Backend in Node.js with Express and PostgreSQL."
+      "e-commerce-platform": "Developed a comprehensive teacher-facing mobile application enabling educators to upload study materials, assign homework, and monitor student performance — used across multiple classrooms. Implemented real-time push notifications, attendance management, and a structured dashboard for class schedules, reducing teacher administrative overhead significantly. Designed a secure role-based access system ensuring student data privacy and organized record-keeping compliant with institutional standards. ",
+      "task-manager-app": "Built an interactive student-facing app providing centralized access to study materials, timetables, assignments, and academic updates in a single platform. Implemented secure authentication and data handling to protect student PII; architected the app for extensibility to support future modules (quizzes, attendance, grades). Focused on UX accessibility and responsiveness across Android and iOS, achieving smooth performance on low-end devices through performance optimization. ",
+      "weather-dashboard": "Developed a doctor appointment booking application using Flutter as part of an internship learning project. Implemented appointment listing and booking features with BLoC/Cubit for state management. Integrated REST APIs to fetch and display doctor and appointment data; followed a clean project structure aligned with Flutter app development best practices. .",
+      "blog-engine": "It's a basically my portfolio wesite which is built using React.js, Tailwind CSS, and Framer Motion. It showcases my skills, projects, and experience in a visually appealing and interactive manner. The website is fully responsive and optimized for perfect performance across devices. It also includes a contact form and links to my social media profiles, making it easy for potential employers or collaborators to get in touch."
     },
     results: {
       "e-commerce-platform": [
@@ -116,6 +117,8 @@ export default {
     },
     items: {
       "react": "React",
+      "flutter": "Flutter",
+      "bloc": "BloC/Cubit",
       "javascript": "JavaScript",
       "typescript": "TypeScript",
       "tailwind": "Tailwind CSS",
@@ -123,13 +126,17 @@ export default {
       "express": "Express",
       "docker": "Docker",
       "git": "Git & GitHub",
-      "postgresql": "PostgreSQL",
       "mysql": "MySQL",
-      "mongodb": "MongoDB",
-      "redis": "Redis",
+      "redis": "Firebase",
       "jest": "Jest, Testing Library",
       "playwright": "Playwright (E2E)",
-      "languages": "C,C++"
+      "languages": "C,C++",
+      "nextjs": "Next.js",
+      "restapi": "REST API Integration",
+      "prompt-engineering": "Prompt Engineering",
+      "ai-genai": "AI & GenAI",
+      "data-analytics": "Data Analytics",
+      "cloud-computing": "Cloud Computing"
     }
   },
   hero: {

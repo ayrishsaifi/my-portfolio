@@ -20,7 +20,7 @@ const Footer = () => {
                 href={SITE_DATA.social.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition transform hover:scale-110"
+                className="text-gray-600 dark:text-gray-400 hover:text-orange-600 dark:hover:text-orange-400 transition transform hover:scale-110"
                 aria-label="GitHub"
               >
                 <FaGithub />
@@ -31,38 +31,16 @@ const Footer = () => {
                 href={SITE_DATA.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition transform hover:scale-110"
+                className="text-gray-600 dark:text-gray-400 hover:text-orange-600 dark:hover:text-orange-400 transition transform hover:scale-110"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin />
               </a>
             )}
-            {SITE_DATA.social.twitter && (
-              <a
-                href={SITE_DATA.social.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition transform hover:scale-110"
-                aria-label="Twitter"
-              >
-                <FaXTwitter />
-              </a>
-            )}
-            {SITE_DATA.social.discord && (
-              <a
-                href={SITE_DATA.social.discord}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition transform hover:scale-110"
-                aria-label="Discord"
-              >
-                <FaDiscord />
-              </a>
-            )}
             {SITE_DATA.email && (
               <a
                 href={`mailto:${SITE_DATA.email}`}
-                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition transform hover:scale-110"
+                className="text-gray-600 dark:text-gray-400 hover:text-orange-600 dark:hover:text-orange-400 transition transform hover:scale-110"
                 aria-label="Email"
               >
                 <FaEnvelope />
@@ -74,8 +52,8 @@ const Footer = () => {
           <div>
             <a
               href="#hero"
-              className="inline-flex items-center gap-2 px-4 py-2 text-blue-600 dark:text-blue-400 hover:text-white
-                        hover:bg-blue-600 dark:hover:bg-blue-800 rounded-lg transition-all duration-300 group"
+              className="inline-flex items-center gap-2 px-4 py-2 text-orange-600 dark:text-orange-400 hover:text-white
+                        hover:bg-orange-600 dark:hover:bg-orange-800 rounded-lg transition-all duration-300 group"
             >
               <FaHome className="text-lg group-hover:scale-110 transition-transform" />
               <span className="font-medium">{ t.nav.home }</span>

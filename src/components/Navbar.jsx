@@ -14,17 +14,19 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <h1 className="text-xl font-bold text-blue-600 dark:text-blue-400">
-            DEV
-          </h1>
-
+          <div className="flex items-center gap-2">
+            <img src="/src/assets/images/myPhoto.jpg" alt="Logo" className="h-10 w-10 rounded-full object-cover"/>
+            <h1 className="text-xl font-bold text-orange-600 dark:text-orange-400">
+              Portfo
+            </h1>
+          </div>
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-6">
             {NAV_DATA.map((item) => (
               <a
                 key={item.id}
                 href={item.href}
-                className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+                className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors duration-200"
               >
                 {t.nav[item.id]}
               </a>
