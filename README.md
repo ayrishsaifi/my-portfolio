@@ -1,6 +1,6 @@
 # 🚀 Aarish Saifi — Software Engineer Portfolio
 
-![Portfolio Screenshot](./public/img/optimized/demo.png)
+![Portfolio Preview](./public/img/optimized/demo.png)
 
 Welcome to my personal portfolio repository.
 
@@ -12,7 +12,7 @@ I’m passionate about building user-friendly applications, solving real-world p
 
 ## 🌐 Live Portfolio
 
-👉 [Visit My Portfolio](https://my-portfolio-gamma-sage-53.vercel.app/)**
+👉 **[Visit My Portfolio](https://my-portfolio-gamma-sage-53.vercel.app/)**
 
 ---
 
