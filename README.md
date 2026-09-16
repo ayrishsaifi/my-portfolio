@@ -1,164 +1,352 @@
-# 🚀 React Portfolio Template (Systems Engineer Edition)
+# 🚀 Aarish Saifi — Software Engineer Portfolio
 
-![Portfolio screenshot](./public/img/optimized/yakov-dev.webp)
+![Portfolio Preview](./public/img/optimized/Screenshot 2026-09-16 163839.png)
 
-A **modern, ATS-friendly, and SEO-optimized** portfolio template built with **React 19**, **Vite**, and **Tailwind CSS** — designed for **systems engineers, DevOps specialists, full-stack developers, and infrastructure architects** with deep technical experience.
+Welcome to my personal portfolio repository.
 
-✨ **Key features**:
+I’m **Aarish Saifi**, a Software Engineer with around **3 years of experience in software and mobile application development**, specializing primarily in **Flutter and Dart**. This portfolio showcases my technical skills, projects, professional experience, education, and ongoing learning journey.
 
-- 🌐 **Bilingual (English / Spanish)** with auto-detection and manual toggle
-- 🌓 **Dark/light mode** with persistent user preference
-- 🔍 **SEO & ATS optimized**: JSON-LD, Open Graph, hreflang, semantic HTML
-- 📩 **Functional contact form** with EmailJS (no backend needed)
-- 🎨 **Animated sections** with Framer Motion
-- 📱 **Fully responsive** and accessible (a11y-ready)
-- 🖼️ **Automatic image optimization** (WebP, JPEG, PNG)
-- 🚀 **One-click deploy** to Vercel, Netlify, or any static host
-
-👉 **[Live Demo](https://react-portfolio-template-rho.vercel.app/)**
+I’m passionate about building user-friendly applications, solving real-world problems, and continuously exploring modern technologies such as **React.js, Python, AI/GenAI, and modern software development practices**.
 
 ---
 
-## 🛠️ How to Use This Template
+## 🌐 Live Portfolio
 
-### 1. Use this repo as a template
+👉 **[Visit My Portfolio](https://my-portfolio-gamma-sage-53.vercel.app/)**
 
-Click **["Use this template"](https://github.com/yakovyakov/react-portfolio-template/generate)** → **"Create a new repository"**.
+---
 
-### 2. Clone your new repo
+## ✨ About Me
+
+I’m a Software Engineer focused on developing reliable and user-friendly applications.
+
+My primary experience is with **Flutter and Dart**, including cross-platform mobile development, BLoC/Cubit state management, REST API integration, Firebase, and local databases.
+
+Alongside mobile development, I’m expanding my skills in **React.js, Python, AI/GenAI, Data Analytics, and modern development tools**.
+
+I enjoy learning new technologies, working on practical projects, and turning ideas into functional digital products.
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Programming Languages
+
+* Dart
+* Python
+* C++
+* JavaScript
+* SQL
+
+### 📱 Mobile Development
+
+* Flutter
+* Dart
+* BLoC
+* Cubit
+* Provider
+* REST API Integration
+* Cross-platform Android & iOS Development
+* State Management
+
+### 🌐 Web Development
+
+* HTML5
+* CSS3
+* JavaScript
+* React.js
+* Responsive Web Design
+
+### 🗄️ Databases & Backend Services
+
+* Firebase
+* SQLite
+* MySQL
+* Firebase Authentication
+* Cloud Firestore
+* Firebase Cloud Messaging
+
+### 🤖 AI & Modern Technologies
+
+* Generative AI — Basic
+* Prompt Engineering
+* AI-assisted Development
+* ChatGPT
+* GitHub Copilot
+* Python for AI/ML — Learning
+
+### 🔧 Tools & Platforms
+
+* Git
+* GitHub
+* VS Code
+* Android Studio
+* Postman
+* Firebase
+* Vercel
+* Agile / Scrum
+
+### 🧠 Core Concepts
+
+* Data Structures & Algorithms
+* Object-Oriented Programming
+* Problem Solving
+* Software Development Life Cycle
+* State Management
+* REST APIs
+* Version Control
+
+---
+
+## 📂 Featured Projects
+
+### 🩺 MediMate — Doctor Appointment App
+
+**Flutter • Dart • BLoC/Cubit • REST API**
+
+A learning/internship-level doctor appointment application developed using Flutter.
+
+**Key Features:**
+
+* Doctor listing
+* Appointment-related functionality
+* REST API integration
+* BLoC/Cubit state management
+* User-friendly mobile UI
+* Cross-platform Flutter development
+
+---
+
+### 💼 Personal Portfolio Website
+
+**React.js • JavaScript • HTML • CSS • Vercel**
+
+A responsive personal portfolio website created to showcase my:
+
+* Professional profile
+* Technical skills
+* Projects
+* Experience
+* Education
+* Contact information
+* GitHub and professional profiles
+
+The website is deployed online and can be accessed through a public URL.
+
+---
+
+## 💼 Experience
+
+### Software / Mobile Application Development
+
+**Around 3 Years of Experience**
+
+Worked on software development projects with a primary focus on:
+
+* Flutter application development
+* Dart programming
+* REST API integration
+* BLoC/Cubit state management
+* Firebase services
+* Local database integration
+* Debugging and issue resolution
+* Git/GitHub version control
+* Application UI development
+* Agile/Scrum development practices
+
+---
+
+## 🎓 Education
+
+### Bachelor of Technology — Computer Science & Engineering
+
+**B.Tech CSE**
+
+Studied core areas including:
+
+* Programming
+* Data Structures & Algorithms
+* Object-Oriented Programming
+* Database Management
+* Software Engineering
+* Computer Science Fundamentals
+
+### Senior Secondary — Class 12
+
+**PCM — Physics, Chemistry & Mathematics**
+
+---
+
+## 🌱 Currently Learning
+
+I believe continuous learning is an important part of software engineering.
+
+Currently exploring:
+
+* ⚛️ React.js
+* 🐍 Python
+* 🤖 Artificial Intelligence
+* 🧠 Generative AI
+* 📊 Data Analytics
+* 📈 Data Science
+* 🐳 Docker
+* ⚙️ DevOps
+* ☁️ Cloud Technologies
+* 🔗 AI Integration with Applications
+
+---
+
+## 🎯 Career Objective
+
+I’m looking for opportunities where I can use my existing software development experience while continuing to grow with modern technologies.
+
+I’m particularly interested in roles related to:
+
+* Software Engineering
+* Flutter Development
+* Mobile Application Development
+* Frontend Development
+* React.js
+* Python
+* AI/GenAI
+* Full-Stack Development
+
+---
+
+## 📊 Portfolio Highlights
+
+| Area                  | Details                                       |
+| --------------------- | --------------------------------------------- |
+| 💼 Experience         | ~3 Years                                      |
+| 🎓 Education          | B.Tech — Computer Science & Engineering       |
+| 📱 Primary Technology | Flutter                                       |
+| 💻 Primary Language   | Dart                                          |
+| 🌐 Web                | React.js, JavaScript, HTML, CSS               |
+| 🗄️ Databases         | Firebase, SQLite, MySQL                       |
+| 🤖 AI                 | Basic AI/GenAI & AI-assisted development      |
+| 🔧 Tools              | Git, GitHub, VS Code, Android Studio, Postman |
+| 🚀 Deployment         | Vercel                                        |
+
+---
+
+## 📬 Connect With Me
+
+I'm open to software development opportunities, collaborations, and professional connections.
+
+* 🌐 Portfolio: https://my-portfolio-gamma-sage-53.vercel.app/
+* 💻 GitHub: https://github.com/ayrishsaifi
+* 💼 LinkedIn: https://www.linkedin.com/in/aarish-saifi-ab46a4221/
+* 📧 Email: saifiaaarish@gmail.com
+
+---
+
+## 🚀 Run This Project Locally
+
+Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/my-portfolio.git
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+Navigate into the project:
+
+```bash
 cd my-portfolio
 ```
 
-### 3. Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### 4. Customize your info
-
-Edit the files in `src/configs/` :
-
-- `data/site.js` → your email, social links, CV URL
-- `data/projects.js` → your projects
-- `data/experience.js` → work history
-- `data/education.js` → degrees & courses
-- `lang/en.js and lang/es.js` → all visible text (titles, descriptions, etc.)
-
-    >💡 Tip: Only edit these files — no need to touch components!
-
-### 5. Run locally
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-Open <http://localhost:5173>
+Open the local development URL shown in your terminal.
 
-### 6. Build & deploy
+---
+
+## 🏗️ Build for Production
+
+Create a production build:
 
 ```bash
 npm run build
 ```
 
-Connect your repo to [Vercel](vercel.com/new)  or [Netlify](netfly.com)  and deploy in minutes.
-
----
-
-## 🖼️ Image Optimization & Build Process
-
-This template includes **automated image optimization** to ensure fast loading and best practices:
-
-### 🔧 Scripts included
-
-| Script | Purpose |
-|-------|--------|
-| `npm run dev` | Starts dev server |
-| `npm run build` | Builds production bundle |
-| `npm run lint` | Runs ESLint |
-| `npm run preview` | Previews production build locally |
-
-### 📦 `prebuild` script (runs before `build`)
-
-Before every build, the template:
-
-1. **Optimizes all images** in `public/img/` → outputs WebP, JPEG, and PNG to `public/img/optimized/`
-
-2. **Generates a fully SEO-optimized `index.html`** with dynamic meta tags, Open Graph, Twitter Cards, and JSON-LD
-
-> ✅ No manual image conversion needed. Just drop your `.jpg`, `.png`, or `.webp` files in `public/img/` and run `npm run build`.
-
-### 📁 Image workflow
+Preview the production build:
 
 ```bash
-# 1. Add your original image
-public/img/avatar.jpg
-
-# 2. Run build (or prebuild)
-npm run build
-
-# 3. Optimized versions are auto-generated
-public/img/optimized/avatar.webp
-public/img/optimized/avatar.jpg
-public/img/optimized/avatar.png  # (if source is PNG)
+npm run preview
 ```
-
-> 📌 The portfolio uses WebP by default for best compression and quality.
 
 ---
 
-## 📦 Tech Stack
+## 🚀 Deployment
 
-| Category | Technologies |
-|--------|-------------|
-| **Core** | React 19, Vite 7 |
-| **Styling** | Tailwind CSS 4, Framer Motion |
-| **SEO / Meta** | `react-helmet-async`, JSON-LD, Open Graph, Twitter Cards, hreflang |
-| **i18n** | Custom context-based translation (no heavy libraries) |
-| **Form** | EmailJS (client-side only) |
-| **Optimization** | Sharp (image optimization), WebP, preload |
-| **Linting** | ESLint 9 (flat config), modern rules |
-| **Deployment** | Vercel (recommended), Netlify, GitHub Pages |
+This portfolio can be deployed using platforms such as:
+
+* Vercel
+* Netlify
+* GitHub Pages
+
+For my deployment, I use **Vercel**.
+
+Whenever changes are pushed to the connected GitHub repository, the deployment can automatically update.
 
 ---
 
 ## 📁 Project Structure
 
-```tree
-src/
-├── configs/            # ✨ Customize here!
-│   ├── data/           # site.js, projects.js, experience.js, etc.
-│   └── lang/           # en.js, es.js
-├── components/         # Navbar, Footer, ThemeToggle, etc.
-├── sections/           # Hero, About, Skills, Projects, etc.
-├── hooks/              # useTheme
-├── contexts/           # TranslationContext
-├── assets/             # Icons, original images
-└── main.jsx            # Entry point
+```text
+my-portfolio/
+│
+├── public/
+│   └── img/
+│
+├── src/
+│   ├── components/
+│   ├── sections/
+│   ├── assets/
+│   ├── hooks/
+│   ├── configs/
+│   └── main.jsx
+│
+├── package.json
+├── index.html
+└── README.md
 ```
 
 ---
 
-## 📸 Screenshots
+## ⭐ Why This Portfolio?
 
-![Desktop view](./public/img/optimized/yakov-dev.webp)
+This portfolio is designed to provide recruiters and hiring managers with a quick overview of:
 
----
-
-## 📬 Need Help or Have Suggestions?
-
-Open an [Issue](https://github.com/yakovyakov/react-portfolio-template/issues)!  
-⭐ **Star this repo** if you find it useful!
+* My professional background
+* Technical skills
+* Development experience
+* Projects
+* Education
+* Current learning journey
+* Contact and professional profiles
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — free to use for personal, commercial, or educational purposes.
+This project is intended for personal portfolio and educational purposes.
 
 ---
 
-> ✨ **Made with passion by [Yasik Reyes Cristobal](https://yasik-dev.vercel.app)** — Systems Architect & Full-Stack Engineer
+### 👨‍💻 Built By
+
+**Aarish Saifi**
+
+**Software Engineer | Flutter Developer | React.js & AI/GenAI Enthusiast**
+
+> 🚀 Building. Learning. Improving. Repeating.
